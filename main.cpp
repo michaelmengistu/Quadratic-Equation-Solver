@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  My New Quadratic Equation Solver
+//  Quadratic Equation Solver
 //
 //  Created by Michael Mengistu on 6/25/17.
 //  Copyright © 2017 Michael Mengistu. All rights reserved.
@@ -32,7 +32,7 @@ int main() {
         cout << a << "x^2 + " << b << "x + " << c << endl;
         cout << "x = " << x1 << endl;
         cout << "x = " << x2 << endl;
-}
+    }
     // for imaginary solutions
     else if ( (b * b) - (4 * a * c) < 0 ) {
         imag = sqrt(-((b * b) - (4 * a * c))) / (2 * a);
